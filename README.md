@@ -7,4 +7,4 @@ This is my final project for DATA200.In it, i cover many things are:
 
 - jupitor nb
 
-and thats all the things covered
+and thats all the things covere
