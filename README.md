@@ -6,16 +6,16 @@ This project represents a collaborative effort to analyze data from Stack Overfl
 
 ## Contents
 
-**Introduction:** Provides background information and outlines the objectives of our analysis, emphasizing the significance of understanding Stack Overflow's ecosystem.
-**Data Importing & Cleaning:** Details the process of obtaining the Stack Overflow dataset and the subsequent data cleaning and preparation steps to ensure the quality and reliability of our analysis.
-**Exploratory Data Analysis (EDA):** Shares insights gained from an initial exploration of the data, including user demographics, posting patterns, and topic distributions.
-**User Engagement Analysis:** Examines metrics related to user engagement, such as question and answer rates, comment activity, and reputation scores.
-**Content Quality Evaluation:** Utilizes various metrics to assess the quality of questions and answers posted on the platform, including response times, vote scores, and accepted answer rates.
-**Trending Topics and Tags Analysis:** Identifies and analyzes trending topics and tags over time to understand shifts in technology and user interests.
-**Sentiment Analysis:** Applies natural language processing techniques to evaluate the sentiment of comments and posts, aiming to gauge the community atmosphere.
-**Network Analysis:** Explores the social and professional networks within Stack Overflow, analyzing connections between users through shared posts, comments, and tags.
-**Predictive Modeling:** Develops models to predict question popularity, answer quality, and user engagement levels based on post content and user activity data.
-**Interactive Visualizations:** Includes interactive charts and graphs using libraries such as Plotly and Dash to visualize analysis results, making them accessible and 
+1. Introduction: Provides background information and outlines the objectives of our analysis, emphasizing the significance of understanding Stack Overflow's ecosystem.
+2. Data Importing & Cleaning: Details the process of obtaining the Stack Overflow dataset and the subsequent data cleaning and preparation steps to ensure the quality and reliability of our analysis.
+3. Exploratory Data Analysis (EDA): Shares insights gained from an initial exploration of the data, including user demographics, posting patterns, and topic distributions.
+4. User Engagement Analysis: Examines metrics related to user engagement, such as question and answer rates, comment activity, and reputation scores.
+5. Content Quality Evaluation: Utilizes various metrics to assess the quality of questions and answers posted on the platform, including response times, vote scores, and accepted answer rates.
+6. Trending Topics and Tags Analysis: Identifies and analyzes trending topics and tags over time to understand shifts in technology and user interests.
+7. Sentiment Analysis: Applies natural language processing techniques to evaluate the sentiment of comments and posts, aiming to gauge the community atmosphere.
+8. Network Analysis: Explores the social and professional networks within Stack Overflow, analyzing connections between users through shared posts, comments, and tags.
+9. Predictive Modeling: Develops models to predict question popularity, answer quality, and user engagement levels based on post content and user activity data.
+10. Interactive Visualizations: Includes interactive charts and graphs using libraries such as Plotly and Dash to visualize analysis results, making them accessible and 
 understandable.
 
 ## Datasets 
