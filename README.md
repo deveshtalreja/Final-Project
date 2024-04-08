@@ -4,6 +4,7 @@
 
 This project represents a collaborative effort to analyze data from Stack Overflow, focusing on understanding trends, user behavior, and content quality within the platform. Our goal is to derive meaningful insights that can help improve user experience, engagement, and knowledge sharing on Stack Overflow. By examining various aspects such as question and answer quality, user activity levels, and topic popularity, we aim to provide a comprehensive overview of the platform's dynamics.
 
+
 ## Contents
 
 1. Introduction: Provides background information and outlines the objectives of our analysis, emphasizing the significance of understanding Stack Overflow's ecosystem.
