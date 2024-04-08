@@ -2,27 +2,25 @@
 
 ## Overview
 
-This project is a part of a group effort to analyze the sentiment of YouTube comments comparing the United States and Great Britain. We aim to explore the differences in sentiment between these two regions, and consider the effect of the comments sentiment to the interaction on a video.
+This project represents a collaborative effort to analyze data from Stack Overflow, focusing on understanding trends, user behavior, and content quality within the platform. Our goal is to derive meaningful insights that can help improve user experience, engagement, and knowledge sharing on Stack Overflow. By examining various aspects such as question and answer quality, user activity levels, and topic popularity, we aim to provide a comprehensive overview of the platform's dynamics.
 
 ## Contents
 
-1. Introduction - Background and objectives of the analysis
-2. Data Importing & Cleaning - Loading and preparing the YouTube comments dataset
-3. Exploratory Data Analysis - Uncovering insights through detailed data exploration
-4. Comment Volume Analysis - Comparing number of comments between US and UK
-5. Sentiment Polarity Analysis - Using VADER model to score comment sentiment
-6. Emoji Analysis - Extracting and analyzing use of emojis
-7. Engagement Analysis - Statistical analysis of likes, dislikes, replies
-8. Topic Modeling - Using NMF and LDA to extract discussion topics
-9. Interactive Visualizations - Plots generated using Plotly Express and Dash
-10. Model Development - Training sentiment classification and engagement prediction models
+1. Introduction: Provides background information and outlines the objectives of our analysis, emphasizing the significance of understanding Stack Overflow's ecosystem.
+2. Data Importing & Cleaning: Details the process of obtaining the Stack Overflow dataset and the subsequent data cleaning and preparation steps to ensure the quality and reliability of our analysis.
+3. Exploratory Data Analysis (EDA): Shares insights gained from an initial exploration of the data, including user demographics, posting patterns, and topic distributions.
+4. User Engagement Analysis: Examines metrics related to user engagement, such as question and answer rates, comment activity, and reputation scores.
+5. Content Quality Evaluation: Utilizes various metrics to assess the quality of questions and answers posted on the platform, including response times, vote scores, and accepted answer rates.
+6. Trending Topics and Tags Analysis: Identifies and analyzes trending topics and tags over time to understand shifts in technology and user interests.
+7. Sentiment Analysis: Applies natural language processing techniques to evaluate the sentiment of comments and posts, aiming to gauge the community atmosphere.
+8. Network Analysis: Explores the social and professional networks within Stack Overflow, analyzing connections between users through shared posts, comments, and tags.
+9. Predictive Modeling: Develops models to predict question popularity, answer quality, and user engagement levels based on post content and user activity data.
+10. Interactive Visualizations: Includes interactive charts and graphs using libraries such as Plotly and Dash to visualize analysis results, making them accessible and 
+understandable.
 
 ## Datasets 
 
-1. USvideos.csv and UScomments.csv - Video metadata and comments from United States
-2. GBvideos.csv and GBcomments.csv - Video metadata and comments from United Kingdom
-
-These CSV files contain samples of YouTube data scraped and published on Kaggle.
+The analysis is based on datasets provided by Stack Overflow, including user profiles, questions, answers, comments, and tag information. These datasets are publicly available through Stack Overflow's annual data release.
 
 ## Technologies Used
 
@@ -36,12 +34,11 @@ These CSV files contain samples of YouTube data scraped and published on Kaggle.
 
 ## Results
 
-The sentiment analysis revealed interesting patterns in the comments from both countries. Further details can be found in the Jupyter Notebook provided in this repository.
+Our analysis uncovered several key insights into Stack Overflow's user engagement, content quality, and community dynamics. Detailed findings and visualizations can be found in the Jupyter Notebook included in this repository.
 
 ## Future Work
 
-Improve sentiment analysis accuracy by using more advanced natural language processing techniques.
-Extend the analysis to include comments from other countries for a broader comparison.
+Future directions include extending the analysis to cover more years of data, incorporating more advanced machine learning models to predict user behavior, and expanding the scope to include other Stack Exchange network sites for a comparative analysis.
 
 ## How to Run
 
@@ -66,27 +63,3 @@ Thanks to DataSnaek for curating and releasing the YouTube comments dataset on K
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-NLTK
-Matplotlib
-Seaborn
-Deepnote Notebook
-Results
-The sentiment analysis revealed interesting patterns in the comments from both countries. Further details can be found in the Jupyter Notebook provided in this repository.
-
-Future Work
-Improve sentiment analysis accuracy by using more advanced natural language processing techniques. Extend the analysis to include comments from other countries for a broader comparison.
-
-How to Run
-Clone the repository
-Install dependencies like pandas, nltk, scikit-learn
-Run jupyter notebook to start Jupyter
-Open the youtube_comments_analysis.ipynb notebook
-Run the cells in order to reproduce the analysis
-Alternatively, view youtube_comments_analysis.html to see a static HTML export of the executed notebook.
-Contributors
-Aryan Jain
-Devesh Talreja
-Micah Billington
-Rupesh Rangwani
-Credits
-Thanks to DataSnaek for curating and releasing the YouTube comments dataset on Kaggle.
